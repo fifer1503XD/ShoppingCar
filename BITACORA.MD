@@ -10,6 +10,10 @@ Instalar API (backend) y la aplicacion React (front):
    `npm install`
 3. Regresa al directorio root `cd ..`.
 
+4. ejecutar con el comando 
+
+    npm tun dev
+
 
 ## 2. explicación del proceso
 
