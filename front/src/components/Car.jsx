@@ -36,7 +36,7 @@ const Car = () => {
                             <p>Cost: {(product.price*product.cantidad).toFixed(2)} Usd   Cantidad: {product.cantidad}</p>
                             </div>
                             <div className="columnp-3">
-                            <FontAwesomeIcon onClick={()=>dispatch(deleteProductCar(product._id,dataProductsCar,dataProducts))} icon={faTrashAlt} /> 
+                            <FontAwesomeIcon className="icon" onClick={()=>dispatch(deleteProductCar(product._id,dataProductsCar,dataProducts))} icon={faTrashAlt} /> 
                             </div>
                            
                         </div>

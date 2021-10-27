@@ -27,6 +27,7 @@ Instalar API (backend) y la aplicacion React (front):
 8. en los directorios actions encontraremos las acciones de car y products
 9. en los directorios reducers encontraremos los casos y el manejo de redux
 10. en el directorio type las posibles acciones
+11. se utilizo localstorage para conservar el historial de stock y del carrito
 
 
 atento a su retroalimentación y agradeciendo su oportunidad
