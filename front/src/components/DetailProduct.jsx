@@ -1,6 +1,6 @@
 
 import "./product.css"
-import Rating from "react-rating"
+import ReactStars from "react-rating-stars-component";
 import { AddProductToCar } from "../actions/products.actions";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -29,7 +29,7 @@ const DetailProduct = (props) => {
                     </div>
                     <div>
                         <h4>Rating: {rating}</h4>
-                        <Rating initialRating={rating} readonly />
+                        <ReactStars value={rating} size={50} edit={false}/>
                     </div>
                     <p><b>Number of Reviews: </b>{numReviews}</p>
                 </div>

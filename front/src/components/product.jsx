@@ -1,8 +1,11 @@
 import "./product.css"
-import Rating from "react-rating"
-
+import ReactStars from "react-rating-stars-component";
 const ProductCard = (props) => {
-
+    const firstExample = {
+        size: 50,
+        value: 2.5,
+        edit: false
+      };
     const { name, image, price, countInStock, rating } = props.product
     return (
         <>
@@ -28,10 +31,9 @@ const ProductCard = (props) => {
                             </div>
 
                             <div>
-                                <h4>Rating</h4>
-                                <Rating initialRating={rating} readonly />
-                    
-
+                                <h4>Rating
+                                <ReactStars value={rating} size={50} edit={false}/>
+                                </h4>
                             </div>
 
                         </div>
